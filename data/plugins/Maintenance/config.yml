@@ -12,7 +12,7 @@
 # For a full list of formats and fancy examples of MiniMessage, see https://docs.adventure.kyori.net/minimessage/format.html
 
 # Enables maintenance mode.
-maintenance-enabled: true
+maintenance-enabled: false
 
 # The message shown in the multiplayer server list motd when maintenance is enabled.
 # If you put in multiple entries, one of them will be chosen randomly on every ping.
