@@ -1,0 +1,3 @@
+---
+logfile: /var/log/cloudflared.log
+loglevel: info
