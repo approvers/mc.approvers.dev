@@ -61,3 +61,7 @@
 - name: "Server Maintenance"
   description: ""
   color: "4c38fa"
+
+- name: "Renovate"
+  description: ""
+  color: "f9c8d9"
