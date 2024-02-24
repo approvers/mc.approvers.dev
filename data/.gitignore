@@ -1,0 +1,23 @@
+password/
+server.properties
+
+# plugins
+
+*.db
+*.jar
+*.json
+*.bin
+
+## Essentials
+plugins/Essentials/messages/
+plugins/Essentials/userdata/
+plugins/Essentials/userdata-npc-backup/
+plugins/Essentials/wraps/
+plugins/Essentials/custom_items.yml
+plugins/Essentials/*.txt
+
+## LuckPerms
+plugins/LuckPerms/libs/
+plugins/LuckPerms/translations/
+
+

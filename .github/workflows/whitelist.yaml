@@ -1,0 +1,21 @@
+name: Validate whitelist
+
+on:
+  pull_request:
+    paths:
+      - 'data/whitelist.json'
+      - '.github/workflows/validate-whitelist.yml'
+    branches:
+      - main
+
+jobs:
+  validate-whitelist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Validate whitelist
+        uses: sksat/minecraft-whitelist-validator@v0.3.3
+        with:
+          json: 'data/whitelist.json'
