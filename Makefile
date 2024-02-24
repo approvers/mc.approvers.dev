@@ -7,6 +7,9 @@ down:
 restart:
 	docker compose restart
 
+update:
+	git pull && docker compose restart
+
 logs:
 	docker compose logs -f
 
