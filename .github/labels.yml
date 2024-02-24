@@ -1,0 +1,63 @@
+- name: "bug"
+  color: "d73a4a"
+  description: "Something isn't working"
+
+- name: "docs"
+  color: "0075ca"
+  description: "Improvements or additions to documentation"
+
+- name: "duplicate"
+  color: "cfd8d7"
+  description: "This issue or pull request already exists"
+
+- name: "enhancement"
+  description: "New feature or request"
+  color: "a2eeef"
+
+- name: "good first issue"
+  description: "Good for newcomers"
+  color: "7057ff"
+
+- name: "help wanted"
+  description: "Extra attention is needed"
+  color: "008672"
+
+- name: "invalid"
+  description: "This doesn't seem right"
+  color: "e4e669"
+
+- name: "question"
+  description: "Further information is requested"
+  color: "d876e3"
+
+- name: "wontfix"
+  description: "This will not be worked on"
+  color: "ffffff"
+
+- name: "bug: Minecraft"
+  description: "bug in Minecraft"
+  color: "bc180e"
+
+- name: "bug: PaperMC"
+  description: "bug in PaperMC"
+  color: "e51b33"
+
+- name: "bug: Plugin"
+  description: "bug in Plugin"
+  color: "e99695"
+
+- name: "In Game"
+  description: ""
+  color: "14d95d"
+
+- name: "In Game Incident"
+  description: ""
+  color: "ee9699"
+
+- name: "Server Incident"
+  description: ""
+  color: "d93f0b"
+
+- name: "Server Maintenance"
+  description: ""
+  color: "4c38fa"
