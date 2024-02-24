@@ -5,7 +5,7 @@ services:
     tty: true
     stdin_open: true
     ports:
-      - 25565:25565
+      - 25567:25567
       - 8804:8804 # Plan
       - 8100:8100 # Bluemap
     environment:
@@ -16,28 +16,3 @@ services:
       - MAX_MEMORY=4G
     volumes:
       - ./data:/data
-
-
-  paper-tunnel:
-    image: crazymax/cloudflared:2023.10.0
-    restart: always
-    volumes:
-      - ./cloudflared:/etc/cloudflared
-    command:
-      - tunnel --hostname test-mc.m1sk9.dev --url tcp://paper:25565 --loglevel info
-
-  bluemap-tunnel:
-    image: crazymax/cloudflared:2023.10.0
-    restart: always
-    volumes:
-      - ./cloudflared:/etc/cloudflared
-    command:
-      - tunnel --hostname test-bluemap.approvers.dev --url http://paper:8100 --loglevel info
-
-  plan-tunnel:
-    image: crazymax/cloudflared:2023.10.0
-    restart: always
-    volumes:
-      - ./cloudflared:/etc/cloudflared
-    command:
-      - tunnel --hostname test-plan.approvers.dev --url http://paper:8804 --loglevel info
