@@ -8,6 +8,11 @@ plugins/**/*.jar
 plugins/**/*.json
 plugins/**/*.bin
 
+## Bluemap
+plugins/Bluemap/*
+!plugins/Bluemap/plugin.conf
+!plugins/Bluemap/maps
+
 ## Essentials
 plugins/Essentials/messages/
 plugins/Essentials/userdata/
@@ -20,4 +25,6 @@ plugins/Essentials/*.txt
 plugins/LuckPerms/libs/
 plugins/LuckPerms/translations/
 
-
+## Plan
+plugins/Plan/*
+!plugins/Plan/config.yml
