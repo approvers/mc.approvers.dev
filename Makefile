@@ -11,4 +11,4 @@ logs:
 	docker compose logs -f
 
 exec:
-	docker exec -i mcapproversdev-paper-1 rcon-cli
+	docker exec -i mc-server-paper-1 rcon-cli
