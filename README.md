@@ -21,7 +21,7 @@
 >
 > 前身である `mc.m1sk9.dev` でプレイしていたプレイヤーはホワイトリストが移行されているので, そのまま引き続きプレイ可能です.
 
-1. [whitelist.json](./whitelist.json) に自分の Minecraft ID, UUID を追加する. UUID は [ここ](https://mcuuid.net/) で取得できます.
+1. [data/whitelist.json](./data/whitelist.json) に自分の Minecraft ID, UUID を追加する. UUID は [ここ](https://mcuuid.net/) で取得できます.
 2. プルリクエストを作成する
 3. Done!
 
