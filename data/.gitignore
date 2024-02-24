@@ -1,30 +1,34 @@
-password/
-server.properties
+*
 
-# plugins
+!whitelist.json
+!ops.json
 
-plugins/**/*.db
-plugins/**/*.jar
-plugins/**/*.json
-plugins/**/*.bin
+## AutoBackup
+!plugins/AutoBackup/config.yml
 
 ## Bluemap
-plugins/Bluemap/*
 !plugins/Bluemap/plugin.conf
 !plugins/Bluemap/maps
 
+## CoreProtect
+!plugins/CoreProtect/config.yml
+
 ## Essentials
-plugins/Essentials/messages/
-plugins/Essentials/userdata/
-plugins/Essentials/userdata-npc-backup/
-plugins/Essentials/wraps/
-plugins/Essentials/custom_items.yml
-plugins/Essentials/*.txt
+!plugins/Essentials/config.yml
+!plugins/Essentials/kits.yml
+!plugins/Essentials/tpr.yml
+!plugins/Essentials/upgrades-done.yml
+!plugins/Essentials/worth.yml
 
 ## LuckPerms
-plugins/LuckPerms/libs/
-plugins/LuckPerms/translations/
+!plugins/LuckPerms/config.yml
+
+## Maintanance
+!plugins/Maintenance/*
 
 ## Plan
-plugins/Plan/*
 !plugins/Plan/config.yml
+
+## VeinMiner
+!plugins/VeinMiner/categories.yml
+!plugins/VeinMiner/config.yml
