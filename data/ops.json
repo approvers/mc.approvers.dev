@@ -4,5 +4,11 @@
     "name": "m1sk9",
     "level": 4,
     "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "7cc091d2-c4d5-496c-b731-e784e57e5d8e",
+    "name": "Colk_",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
