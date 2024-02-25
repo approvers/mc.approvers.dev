@@ -30,6 +30,9 @@
 ## Plan
 !plugins/Plan/config.yml
 
+## ServerBackup
+!plugins/ServerBackup/*
+
 ## VeinMiner
 !plugins/VeinMiner/categories.yml
 !plugins/VeinMiner/config.yml
