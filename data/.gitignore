@@ -4,9 +4,6 @@
 !ops.json
 !server-icon.png
 
-## AutoBackup
-!plugins/AutoBackup/config.yml
-
 ## Bluemap
 !plugins/Bluemap/plugin.conf
 !plugins/Bluemap/maps
