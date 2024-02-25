@@ -18,7 +18,7 @@ maintenance-enabled: false
 # If you put in multiple entries, one of them will be chosen randomly on every ping.
 # If running an endtimer, the time left can be displayed by including '%TIMER%' in a pingmessage (also works in playercount(-hover) message).
 pingmessages:
-- <aqua>mc.approvers.dev (Paper 1.20.4)</aqua><br><red>現在メンテナンス中です. 再開までいましばらくお待ち下さい.</red>
+- <aqua>Approvers Minecraft Server</aqua><br><red>現在メンテナンス中です. 再開までしばらくお待ち下さい.</red>
 # - "Other entry"
 enable-pingmessages: true
 
@@ -31,7 +31,7 @@ commands-on-maintenance-disable: []
 # instead of the ones above, so you can have different messages for when an endtimer is running/not running.
 enable-timerspecific-messages: true
 timerspecific-pingmessages:
-- <aqua>mc.approvers.dev (Paper 1.20.4)</aqua><br><red>現在メンテナンス中です. 再開までいましばらくお待ち下さい.</red>
+- <aqua>Approvers Minecraft Server</aqua><br><red>現在メンテナンス中です. 再開までしばらくお待ち下さい.</red>
 # - "Other entry"
 
 # If set to true, the message below will be shown in the top right corner of the server in the serverlist, where the playercount would normally be displayed.
