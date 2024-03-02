@@ -17,3 +17,7 @@ services:
       - MEMORY=1G
     volumes:
       - ./data:/data
+    deploy:
+      resources:
+        limits:
+          memory: 6G
