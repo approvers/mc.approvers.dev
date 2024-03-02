@@ -15,6 +15,9 @@ services:
       - TYPE=PAPER
       - OPS=m1sk9,Colk_
       - MEMORY=1G
-      - MAX_MEMORY=6G
     volumes:
       - ./data:/data
+    deploy:
+      resources:
+        limits:
+          memory: 6G
