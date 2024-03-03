@@ -15,6 +15,6 @@ services:
       - TYPE=PAPER
       - OPS=m1sk9,Colk_
       # note: https://docker-minecraft-server.readthedocs.io/en/latest/configuration/jvm-options/
-      - MEMORY=1G
+      - MEMORY=6G
     volumes:
       - ./data:/data
